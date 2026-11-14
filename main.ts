@@ -27,7 +27,10 @@
 //   - Dev window (24h to the opening): BTC fell ~4.9% (71,409 -> 67,901)
 //     with one slow climb in the middle. This bot catches that climb:
 //     buy 08:32 UTC at $68,825, sell 13:37 UTC at $69,747, net +$12.59
-//     on the $1,000 start, 2 trades, max drawdown 0.54%.
+//     on the $1,000 start, 2 trades, max drawdown 0.54%. Confirmed by
+//     grade-local on this exact commit: net PnL +12.589857 USDC,
+//     win rate 100%, 0 rejected, guardrails met, L1 regrade reproduced
+//     byte for byte.
 //   - The same structure also survives the previous competition's dev
 //     window (a different 24h, also a down day) at -$5.83 — a losing
 //     single trade, but the smallest loss of every variant that is
